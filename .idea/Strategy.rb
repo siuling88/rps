@@ -1,4 +1,3 @@
-
 class Strategy
   def next(m)
 
@@ -12,6 +11,7 @@ class Strategy
 end
 
 class Uniform < Strategy
+  r = Uniform.new( [ :Rock, :Scissors, :Paper ] )
 end
 
 class Biased < Strategy
